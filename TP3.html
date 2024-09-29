@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan diri</title>
+</head>
+<body>
+    <div class="foto-video">
+    <!-- tag <div> digunakan sebagai kontainer atau pembungkus elemen-elemen yang lainnya untuk tujuan pengelompokan. 
+    Alasan memakai tag ini agar terdapat pengelompokan pada setiap elemen dan codingan terlihat rapih -->
+        <table>
+        <!-- tag <table> digunakan untuk menampilkan data dalam bentuk tabel atau grid.
+        Alasan memakai tag ini agar hasilnya rapih dan terstruktur.(Digunakan tanpa border agar tabel tidak terlihat) -->
+            <tr>
+                <h1>Profil Pribadi</h1>
+            </tr>
+            <!-- tag <tr> Digunakan untuk mendefinisikan satu baris dalam tabel.
+            Alasan digunakan yaitu untuk memisahkan baris agar isi menjadi terstruktur -->
+            <tr>
+                <th>Foto Profil</th>
+                <th>Video Perkenalan</th>
+                <!-- Tag <th> digunakan untuk membuat header atau judul kolom pada tabel.
+                Dalam hal ini digunakan untuk menjadi penjelas judul dari foto dan video -->
+            </tr>
+            <tr>
+                <td style="text-align:center;"><img src="checklist.png" alt="Rose" width="200" height="200" /></td>
+                <!-- Tag <img> digunakan untuk menyisipkan gambar di halaman web.
+                Dalam hal ini digunakan untuk menampilkan foto diri. -->
+                <td><video width="350" controls>
+                    <source src="CS.mp4" type="video/mp4">
+                </video></td>
+                <!-- Tag <video> digunakan untuk menampilkan pemutar video yang mendukung format seperti MP4.
+                Dalam hal ini digunakan untuk menampilkan video perkenalan diri. -->
+            </tr>
+        </table>
+    </div>
+
+    <div class="Tentang-saya">
+        <table>
+            <tr>
+                <th style="text-align:left;"><h2>Tentang Saya</h2></th>
+            </tr>
+            <tr>
+                <td>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</td>
+                <!-- Tag <td> digunakan untuk menampilkan isi atau sel-sel data di dalam tabel.
+                Dalam hal ini digunakan untuk menampilkan text dari perkenalan diri -->
+            </tr>
+        </table>
+    </div>
+
+    <div class="Keterampilan">
+        <table>
+            <tr>
+                <th style="text-align:left;"><h2>Keterampilan</h2></th>
+            </tr>
+            <tr>
+                <th style="text-align:left;">Keterampilan</th>
+                <th style="text-align:left;">Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <th style="text-align:left;"><h2>Hubungi Saya</h2></th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="Hubungi">
+        <form>
+            <!-- Tag <form> digunakan untuk membuat form interaktif yang memungkinkan kita untuk memasukkan data.
+            Dalam hal ini digunakan bagian form untuk memberikan pesan kepada saya. -->
+            <table>
+                <tr>
+                    <td>
+                        Nama : <input type ="text" name="nama" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email : <input type ="text" name="email" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Pesan :
+                    </td>
+                </tr>
+                <tr>
+                    <td><textarea name="message" rows="3" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                    <input type="button" value="Kirim Pesan" />
+                    <!-- Tag <input> digunakan untuk memasukkan data ke dalam form. 
+                    Dalam hal ini digunakan untuk menggunakan tipe button. -->
+                    <!-- Tag <button> digunakan untuk membuat tombol yang bisa diklik oleh pengguna untuk memicu suatu aksi
+                    Dalam hal ini digunakan untuk tombol mengirim pesan. -->
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <div class="Medsos">
+        <table>
+            <tr>
+                <th style="text-align:left;"><h2>Media Sosial</h2></th>
+            </tr>
+            <tr>
+                <td><a href="https://www.linkedin.com">LinkedIn</a> |
+                <a href="https://github.com">GitHub</a> |
+                <a href="https://twitter.com">Twitter</a></td>
+                <!-- Tag <a> digunakan untuk membuat hyperlink yang mengarahkan pengguna ke halaman lain atau website lain.
+                Dalam hal ini digunakan untuk hyperlink yang mengarahkan ke linkedin, github, dan twitter yang digunakan. -->
+        </table>
+    </div>
+</body>
+</html>
